@@ -15,7 +15,11 @@
       <div class="product-display">
         <div class="product-container">
           <div class="product-image">
-            <!-- image goes here -->
+            <figure>
+              <a :href="imageUrl" target="_blank">
+                <img :src="imagePath" alt="">
+              </a>
+            </figure>
           </div>
           <div class="product-info">
             <h1>{{ product }}</h1>
